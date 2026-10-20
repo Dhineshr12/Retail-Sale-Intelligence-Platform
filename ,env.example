@@ -1,0 +1,4 @@
+
+DATABRICKS_SERVER_HOSTNAME=your-workspace-hostname
+DATABRICKS_HTTP_PATH=/sql/1.0/warehouses/your-warehouse-id
+DATABRICKS_TOKEN=your-token-here

@@ -1,0 +1,7 @@
+streamlit
+pandas
+plotly
+databricks-sql-connector
+python-dotenv
+scikit-learn
+numpy

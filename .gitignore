@@ -1,0 +1,76 @@
+
+# ==============================
+# Environment variables & secrets
+# ==============================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ==============================
+# Python virtual environments
+# ==============================
+sales/
+.venv/
+venv/
+env/
+
+# ==============================
+# Python cache files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Model files - generated artifacts
+# ==============================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# ==============================
+# Archives and temporary files
+# ==============================
+*.zip
+*.7z
+*.rar
+*.tmp
+*.log
+
+# ==============================
+# Jupyter Notebook files
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and operating system files
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Streamlit cache
+# ==============================
+.streamlit/cache/
+
+# ==============================
+# Test and coverage output
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Build artifacts
+# ==============================
+build/
+dist/
+*.egg-info/
